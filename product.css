@@ -1,0 +1,84 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  padding: 200px
+}
+
+.img{
+  border-radius: 8px 0px 0px 8px;
+  margin-bottom: -4px;
+  width: 325px;
+}
+
+.card-wrapper{
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+  background: hsl(0, 0%, 100%);
+}
+
+.card-content{
+  margin-right: -35px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 325px;
+  padding-left: 20px;
+}
+
+
+
+
+/* Content styling */
+
+.description{
+  letter-spacing: 5px;
+}
+
+p{
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-right: 50px;
+}
+
+h1{
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  margin-right: 50px;
+}
+
+#cart{
+ background-color: hsl(158, 36%, 37%);
+ border-radius: 5px;
+ border: 0;
+ color: white;
+ font-family: Montserrat;
+ font-size: 14px;
+ width: 220px;
+ padding: 15px;
+ background-image: url(file:///C:/Users/Riccardo/Desktop/Coding/frontendmentor/product-preview-card-component-main/images/icon-cart.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-position: 40px;
+ margin-left: 30px;
+
+}
+
+.prices{
+display: contents;
+}
+
+.prices p:first-child{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  float: left;
+}
+
+.prices p:last-child{
+  margin-top: 55px;
+  margin-left: 50px;
+}
